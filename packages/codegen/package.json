@@ -5,8 +5,8 @@
   "private": false,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "repository": "whopio/next-app-middleware",
-  "bugs": "https://github.com/whopio/next-app-middleware/issues",
+  "repository": "cxptools/next-app-middleware",
+  "bugs": "https://github.com/cxptools/next-app-middleware/issues",
   "scripts": {
     "bundle": "tsup ./src/index.ts --format cjs --dts",
     "build": "pnpm run bundle --minify",

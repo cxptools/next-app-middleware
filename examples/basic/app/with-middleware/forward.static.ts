@@ -1,4 +1,4 @@
-import { StaticForwarder } from "next-app-middleware/runtime";
+import { StaticForwarder } from "@cxptools/next-app-middleware/runtime";
 
 export const hosted: StaticForwarder = () => {
   return true;

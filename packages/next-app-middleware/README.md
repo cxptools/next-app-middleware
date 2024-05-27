@@ -1,5 +1,7 @@
 # next-app-middleware
 
+WARNING: this is an experimental fork done for our own needs of using this in NextJS 14. It could get unmaintained, we might delete it, etc. Use at your own risk, we recommend forking the original repo instead.
+
 next.js uses your filesystem structure to route requests to pages, why should you have to manually route middleware?
 
 Skip the task of matching request paths to conditionally run code in your middleware - this extension allows you to locate your middleware code directly inside the app directory and only run it when it matters.

@@ -1,12 +1,12 @@
 {
-  "name": "next-app-middleware",
-  "version": "0.0.0",
+  "name": "@cxptools/next-app-middleware",
+  "version": "0.0.7",
   "description": "",
   "private": false,
   "main": "index.js",
   "types": "index.d.ts",
-  "repository": "whopio/next-app-middleware",
-  "bugs": "https://github.com/whopio/next-app-middleware/issues",
+  "repository": "cxptools/next-app-middleware",
+  "bugs": "https://github.com/cxptools/next-app-middleware/issues",
   "scripts": {
     "build": "concurrently \"pnpm run build:swc\" \"pnpm run build:tsc\"",
     "build:swc": "swc src -d ./ -s -C module.type=commonjs",
@@ -27,10 +27,10 @@
     "typescript": "^4.9.3"
   },
   "peerDependencies": {
-    "next": "^13.2"
+    "next": "^14"
   },
   "dependencies": {
-    "@next-app-middleware/codegen": "workspace:0.0.0",
-    "@next-app-middleware/runtime": "workspace:0.0.0"
+    "@next-app-middleware/codegen": "0.0.6",
+    "@next-app-middleware/runtime": "0.0.6"
   }
 }

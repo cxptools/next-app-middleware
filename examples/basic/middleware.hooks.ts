@@ -3,11 +3,14 @@ import type {
   ErrorHook,
   GenericHook,
   ParamsHook,
-} from "next-app-middleware/runtime";
+} from "@cxptools/next-app-middleware/runtime";
 import { NextResponse } from "next/server";
 
 export const response: ResponseHook = (res) => {
-  console.log(res.status);
+  return new Promise((resolve) => {
+    console.log(res.status);
+    resolve(res);
+  });
 };
 
 export const error: ErrorHook = (_, _2, err) => {

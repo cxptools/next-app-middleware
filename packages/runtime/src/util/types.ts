@@ -68,7 +68,7 @@ export type JsonHook = GenericHook<[data: unknown]>;
 
 export type ErrorHook = GenericHook<[error: Error]>;
 
-export type ResponseHook = (res: Response) => OptionalPromise<void>;
+export type ResponseHook = (res: Response) => OptionalPromise<Response>;
 
 export type MiddleWareHandlerResult =
   | { redirect: string | URL | NextURL; status?: number }

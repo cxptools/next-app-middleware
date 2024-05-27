@@ -1,10 +1,7 @@
-const { withMiddleware } = require("next-app-middleware");
+const { withMiddleware } = require("@cxptools/next-app-middleware");
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    appDir: true,
-  },
   basePath: "/js",
 };
 

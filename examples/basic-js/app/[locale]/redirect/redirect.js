@@ -1,5 +1,5 @@
 /**
- * @type {import("next-app-middleware/runtime").RedirectHandler<{ locale: string }>}
+ * @type {import("@cxptools/next-app-middleware/runtime").RedirectHandler<{ locale: string }>}
  */
 export default () => {
   return "/";
